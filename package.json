@@ -1,0 +1,23 @@
+{
+  "name": "node_weather_widget",
+  "version": "1.0.0",
+  "description": "Node weather widget",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrchapprogrammer/node-weather-widget.git"
+  },
+  "author": "John Chappelle III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrchapprogrammer/node-weather-widget/issues"
+  },
+  "homepage": "https://github.com/jrchapprogrammer/node-weather-widget#readme",
+  "dependencies": {
+    "request": "^2.81.0",
+    "yargs": "^8.0.2"
+  }
+}
