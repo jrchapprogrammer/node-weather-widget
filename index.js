@@ -1,4 +1,3 @@
-
 const request = require('request');
 const argv = require('yargs').argv;
 
@@ -14,6 +13,7 @@ request(url, function (err, response, body) {
     let weather = JSON.parse(body);
     let message = `It's ${weather.main.temp} degrees in ${weather.name}!`;
     //console.log(message);
-    document.getElementById("json")= weather;
+    const weatherDiv = document.getElementsByClassName("weather-container");
+    weatherDiv.innerHtml(message);
   }
 });
