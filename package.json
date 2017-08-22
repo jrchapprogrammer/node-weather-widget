@@ -2,7 +2,7 @@
   "name": "node_weather_widget",
   "version": "1.0.0",
   "description": "Node weather widget",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
